@@ -1,0 +1,22 @@
+- name: Install cmatrix, cowsay, sl
+  hosts: vorobchenko
+  become: true
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install cmatrix package
+      apt:
+        name: cmatrix
+        state: present
+
+    - name: Install cowsay package
+      apt:
+        name: cowsay
+        state: present
+
+    - name: Install sl package
+      apt:
+        name: sl
+        state: present
