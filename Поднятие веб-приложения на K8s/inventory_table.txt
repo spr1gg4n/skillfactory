@@ -1,0 +1,10 @@
+NAME       STATUS   ROLES           AGE   VERSION   INTERNAL-IP    EXTERNAL-IP   OS-IMAGE             KERNEL-VERSION      CONTAINER-RUNTIME	NAMESPACE     NAME                                 READY   STATUS    RESTARTS      AGE    IP             NODE       NOMINATED NODE   READINESS GATES
+minikube   Ready    control-plane   2d    v1.27.4   192.168.49.2   <none>        Ubuntu 22.04.2 LTS   5.15.0-84-generic   docker://24.0.4	default       mifiib-deployment-f8c9f4f4-fgjch     1/1     Running   1 (88m ago)   108m   10.244.0.8     minikube   <none>           <none>
+	default       webapp-deployment-65f9d7575d-drfct   1/1     Running   1 (88m ago)   108m   10.244.0.7     minikube   <none>           <none>
+	kube-system   coredns-5d78c9869d-hsfkc             1/1     Running   2 (88m ago)   2d     10.244.0.6     minikube   <none>           <none>
+	kube-system   etcd-minikube                        1/1     Running   2 (88m ago)   2d     192.168.49.2   minikube   <none>           <none>
+	kube-system   kube-apiserver-minikube              1/1     Running   2 (88m ago)   2d     192.168.49.2   minikube   <none>           <none>
+	kube-system   kube-controller-manager-minikube     1/1     Running   2 (88m ago)   2d     192.168.49.2   minikube   <none>           <none>
+	kube-system   kube-proxy-n69zj                     1/1     Running   2 (88m ago)   2d     192.168.49.2   minikube   <none>           <none>
+	kube-system   kube-scheduler-minikube              1/1     Running   2 (88m ago)   2d     192.168.49.2   minikube   <none>           <none>
+	kube-system   storage-provisioner                  1/1     Running   5 (42m ago)   2d     192.168.49.2   minikube   <none>           <none>
